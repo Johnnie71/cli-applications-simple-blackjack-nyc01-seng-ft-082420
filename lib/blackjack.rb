@@ -38,12 +38,12 @@ def hit?(total)
   elsif user_input == "s"
     total
   else
-    puts "Please enter a valid command"
+    invalid_command
   end 
 end
 
 def invalid_command
-  puts 
+  puts "Please enter a valid command"
 end
 
 #####################################################
