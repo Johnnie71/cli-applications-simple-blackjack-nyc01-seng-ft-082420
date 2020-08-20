@@ -39,12 +39,13 @@ def hit?(total)
     total
   else
     invalid_command
-    user_input
   end 
 end
 
 def invalid_command
   puts "Please enter a valid command"
+  prompt_user
+  get_user_input
 end
 
 #####################################################
